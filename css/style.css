@@ -107,7 +107,7 @@ body {
     padding-bottom: 10px;
   }
   .carousel-item img {
-    height: 450px;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
   }
@@ -150,6 +150,9 @@ body {
   .FindTitle {
     font-size: 40px;
   }
+  .FollowUs-logo {
+    flex-direction: column;
+  }
 }
 
 /* Mobile Large*/
@@ -175,7 +178,7 @@ body {
     padding-bottom: 10px;
   }
   .carousel-item img {
-    height: 500px;
+    height: 50vh;
     width: 100%;
     object-fit: cover;
   }
@@ -218,6 +221,9 @@ body {
   .FindTitle {
     font-size: 40px;
   }
+  .FollowUs-logo {
+    flex-direction: column;
+  }
 }
 
 /* Tablet */
@@ -243,7 +249,7 @@ body {
     padding-bottom: 10px;
   }
   .carousel-item img {
-    height: 500px;
+    height: 50vh;
     width: 100%;
     object-fit: cover;
   }
@@ -286,6 +292,9 @@ body {
   .FindTitle {
     font-size: 40px;
   }
+  .FollowUs-logo {
+    flex-direction: row;
+  }
 }
 
 /* Desktop */
@@ -306,7 +315,7 @@ body {
     font-size: 30px;
   }
   .carousel-item img {
-    height: 750px;
+    height: 750vh;
     width: 100%;
     object-fit: cover;
   }
@@ -347,5 +356,8 @@ body {
   }
   .FindTitle {
     font-size: 60px;
+  }
+  .FollowUs-logo {
+    flex-direction: row;
   }
 }
